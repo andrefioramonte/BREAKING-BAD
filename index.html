@@ -3,39 +3,65 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://kit.fontawesome.com/324b71f187.js" crossorigin="anonymous"></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Red+Rose:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="stely.css">
     <title>BREAKING BAD</title>
 </head>
 <body>
-    <header>
+    <!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Red+Rose:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/324b71f187.js" crossorigin="anonymous"></script>
+    <title>Breaking bad</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="./main.js" defer></script>
+</head>
+<body>
+
+<header id="header">
         <div class="topo">        
             <p>TEMPORADA</p>
-            <i class="fas fa-bars" id="abrir"></i>
-            <i class="fas fa-times" id="fechar"></i>
         </div>
-    </header>
-    <main>
-            <div class="texto">
+    <i class="fas fa-bars" id="abrir"></i>
+    <i class="fas fa-times" id="fechar"></i>
+    <div class="overlay">
+        <a href="#">TEMPORADA  1</a>
+        <a href="#">TEMPORADA  2</a>
+        <a href="#">TEMPORADA  3</a>
+        <a href="#">TEMPORADA  4</a>
+        <a href="#">TEMPORADA  5</a>
+    </div>
+</header>
+
+<main>
+        <div class="filme-container">
+            <div class="descricao">
                 <p>On March 8,</p>
                 <p>All Becomes Crystal Clear</p>
+                <a class="button" href="https://www.youtube.com/watch?v=7bVHlRORoKA"> Trailer </a>
             </div>
-        <div class="conteudo-container">
-            <div class="botao">
-                <button>TRAILER</button>
-            </div>
-            <div class="logo">
-                <img src="./img/logo-breaking-bead.png" alt="">
-            </div>
-            <div class="trailler">
-                <img src="./img/traillers.png" alt="">
-                <a href="https://www.imdb.com/title/tt0903747/"><img  class="play" src="./img/play.png" alt=""></a>
+
+            <div class="traillers">
+                <div class="logo">
+                    <img src="./img/LOGO.png" alt="">
+                </div>
+                <div class="trailler">
+                    <a href="https://www.youtube.com/watch?v=7bVHlRORoKA"><img  class="play" src="./img/play-desktop.png" alt=""></a>
+                    <img class="img-trailler" src="./img/trailler.png" alt="">
+                </div>
             </div>
         </div>
+        </div>
     </main>
-    <footer></footer>
+
+    <footer>
+    </footer>
+
+</body>
+</html>
+
 </body>
 </html>
